@@ -8,8 +8,14 @@ A Python-based stock price predictor built in Jupyter Notebook. The tool fetches
 Linear Regression model on historical closing prices, and outputs a predicted 
 price N days ahead with a BUY/HOLD/SELL signal.
 
-## Stack
-Python · yfinance · scikit-learn · pandas · matplotlib · numpy
+## Tech Stack
+- Python
+- pandas
+- numpy
+- scikit-learn
+- yfinance
+- matplotlib
+- Jupyter Notebook
 
 ## Methodology
 - **Features:** Closing price plus N lagged closing prices (N = user's chosen forecast horizon)
@@ -40,7 +46,7 @@ in the notebook.
 
 ## How to Run
 1. Clone the repository
-2. Open `stock_price_predictor.ipynb` in Jupyter Notebook
+2. Open `Stock Price Forecasting - A Baseline ML Study.ipynb` in Jupyter Notebook
 3. Run all cells in order
 4. Enter market (IN or GLOBAL), stock name, and forecast horizon when prompted
 
